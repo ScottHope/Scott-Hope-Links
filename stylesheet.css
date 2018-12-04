@@ -1,4 +1,9 @@
 body{
 background:url('images/golf image 1.jpg');
-background-size:100%;
+background-size:cover;
+background-attachment:fixed;
+}
+
+p{
+	color:#fff;
 }
