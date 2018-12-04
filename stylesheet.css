@@ -2,16 +2,23 @@ body{
 background:url('images/golf image 1.jpg');
 background-size:cover;
 background-attachment:fixed;
-}
-
-p{
-	color:#fff;
+font:1.1rem tahoma;
 }
 
 #container{
 	display:flex;
 }
 
+#heading{
+	font:7rem Niconne;
+	margin:0 200px;
+	color:black;
+	text-shadow:5px 5px 5px #0007,-0.5px -0.5px 0px #fff
+}
+
 #main{
 	width:70%;
+	background:#fffa;
+	margin:auto;
+	padding:20px 50px;
 }
