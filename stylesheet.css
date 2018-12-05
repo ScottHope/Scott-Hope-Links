@@ -10,10 +10,10 @@ font:1.1rem tahoma;
 }
 
 #heading{
-	font:7rem Niconne;
-	margin:0 200px;
-	color:black;
-	text-shadow:5px 5px 5px #0007,-0.5px -0.5px 0px #fff
+	font: 7rem Niconne;
+    color: #000;
+    text-shadow: 5px 5px 5px #0007, -0.6px -1.3px 0px #fff;
+    -webkit-text-stroke: 2px #00a1ff;
 }
 
 #main{
