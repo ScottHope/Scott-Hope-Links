@@ -22,3 +22,8 @@ font:1.1rem tahoma;
 	margin:auto;
 	padding:20px 50px;
 }
+
+iframe{
+	width:800px;
+	height:600px;
+}
