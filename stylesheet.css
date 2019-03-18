@@ -25,6 +25,28 @@ a:active{
 	color:lime;
 }
 
+span{
+	font-size: 70%;
+}
+
+img{
+	border:5px solid #fff;
+	border-radius:3px;
+	box-shadow:0 0 20px #000;
+}
+
+tip{
+	background-color: #ccc;
+	padding: 3px 7px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+
+p#jumptxt{
+	background: ghostwhite;
+	padding: 10px;
+}
+
 #heading{
 	font: 7rem Niconne;
   color: #000;
@@ -34,8 +56,20 @@ a:active{
 
 #main{
 	background:#fff4;
-	margin:auto;
-	padding:20px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#search{
+	padding: 5px 10px;
+	font: 1.1em tahoma;
+	outline: none;
+	border: 3px inset white;
+	box-shadow: inset 0 0 4px #000;
+	border-radius: 3px;
+	margin: 10px 50%;
 }
 
 .button{
@@ -50,39 +84,10 @@ a:active{
 	transition: opacity 1s;
 }
 
-span{
-	font-size: 70%;
-}
-
 .invalid{
 	opacity:0.2;
 }
 
-#search{
+.pageLinks a{
 	display: block;
-  margin: 10px auto;
-  padding: 5px 10px;
-  font: 1.1em tahoma;
-	outline: none;
-	display: block;
-	border: 3px inset white;
-	box-shadow: inset 0 0 4px #000;
-	border-radius: 3px;
-}
-
-input[type="text"]::after{
-	content:"";
-	
-}
-
-p#jumptxt{
-	width:500px;
-	float:left;
-	margin:100px;
-}
-
-img{
-	border:5px solid #fff;
-	border-radius:3px;
-	box-shadow:0 0 20px #000;
 }
