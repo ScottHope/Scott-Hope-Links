@@ -21,12 +21,12 @@ a:visited{
 	color:rgb(180, 255, 255);
 }
 
-a:hover{
+#main a:hover{
 	transform: scale(1.03);
 	box-shadow:0 3px 3px 2px #0007;
 }
 
-a:active{
+#main a:active{
 	/* color:lime; */
 	transform:scale(1.01);
 	box-shadow:0 3px 3px 0px #0007;
@@ -34,12 +34,6 @@ a:active{
 
 span{
 	font-size: 70%;
-}
-
-img{
-	border:5px solid #fff;
-	border-radius:3px;
-	box-shadow:0 0 20px #000;
 }
 
 #heading{
@@ -97,6 +91,17 @@ img{
 	opacity:0.3;
 	pointer-events:none;
 }
+
+.counter{
+	position: absolute;
+	top: 5px;
+	right: -115px;
+	pointer-events: none;
+	opacity: 0.6;
+}
+ .counter img{
+	 width:120px;
+ }
 
 @media screen and (max-width:500px){
 	#inputSection{

@@ -1,8 +1,9 @@
-let searchBox = document.querySelector("input");
-let buttons = document.querySelectorAll(".button");
-let match = document.querySelector("#matches");
-let inputBG = document.querySelector(":root");
-// let count = 0;
+let searchBox = document.querySelector("input"),
+buttons = document.querySelectorAll(".button"),
+match = document.querySelector("#matches"),
+inputBG = document.querySelector(":root"),
+counter = document.querySelectorAll(".counter img")[0];
+
 searchBox.addEventListener("input", buttonSearch);
 searchBox.focus();
 
@@ -18,3 +19,5 @@ function buttonSearch() {
   (searchBox.value === "" && count === 63) ? match.textContent = "" : match.textContent = "Matches : " + count;
   count === 0 ? inputBG.style.setProperty("--inputColor","#faa") : inputBG.style.setProperty("--inputColor","");
 }
+
+counter.removeAttribute("title");
