@@ -1,8 +1,12 @@
+:root{
+	--inputColor:#bfb;
+}
+
 body{
-background:url('images/golf image 1.jpg');
-background-size:cover;
-background-attachment:fixed;
-font:1.1rem tahoma;
+	background:url('images/golf image 1.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	font:1.1rem tahoma;
 }
 
 a{
@@ -40,8 +44,8 @@ img{
 
 #heading{
 	font: 7rem Niconne;
-  color: #000;
-  text-shadow: 5px 5px 5px #0007, -0.6px -1.3px 0px #fff;
+	color: #000;
+	text-shadow: 5px 5px 5px #0007, -0.6px -1.3px 0px #fff;
 	-webkit-text-stroke: 2px #00a1ff;
 	margin:-20px 0 0;
 }
@@ -61,7 +65,21 @@ img{
 	border: 3px inset white;
 	box-shadow: inset 0 0 4px #000;
 	border-radius: 3px;
-	margin: 20px 50%;
+	margin: 20px;
+}
+
+#inputSection{
+	display:flex;
+	width:100%;
+	justify-content: center;
+}
+
+#matches{
+	margin:30px 0;
+}
+
+#search:focus{
+	background: var(--inputColor);
 }
 
 .button{
@@ -78,4 +96,24 @@ img{
 .invalid{
 	opacity:0.3;
 	pointer-events:none;
+}
+
+@media screen and (max-width:500px){
+	#inputSection{
+		flex-wrap:wrap;
+	}
+
+	#search{
+		margin:20px 20px 0;
+	}
+
+	#matches{
+		margin:10px 0;
+	}
+
+	#heading{
+		font-size: 4rem;
+		-webkit-text-stroke-width: 1px;
+	}
+
 }
