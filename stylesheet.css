@@ -72,7 +72,7 @@ span{
 	width: 100%;
 	text-align: center;
 	margin:5px;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 #matches>span{
@@ -102,9 +102,10 @@ span{
 .counter{
 	position: absolute;
 	top: 5px;
-	right: -115px;
+	right: 5px;
 	pointer-events: none;
 	opacity: 0.6;
+	width:120px;
 }
  .counter img{
 	 width:120px;
