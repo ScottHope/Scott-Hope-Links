@@ -14,7 +14,7 @@ a{
 }
 
 a:link{
-	color:#fff;
+	color:rgb(255, 255, 255);
 }
 
 a:visited{
@@ -23,13 +23,13 @@ a:visited{
 
 #main a:hover{
 	transform: scale(1.03);
-	box-shadow:0 3px 3px 2px #0007;
+	box-shadow:0 3px 3px 2px rgba(0, 0, 0, 0.467);
 }
 
 #main a:active{
 	/* color:lime; */
 	transform:scale(1.01);
-	box-shadow:0 3px 3px 0px #0007;
+	box-shadow:0 3px 3px 0px rgba(0, 0, 0, 0.467);
 }
 
 span{
@@ -38,15 +38,15 @@ span{
 
 #heading{
 	font: 6rem Niconne;
-	color: #000;
-	text-shadow: 5px 5px 5px #0007, -0.6px -1.3px 0px #fff;
-	-webkit-text-stroke: 2px #00a1ff;
+	color: rgb(0, 0, 0);
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.467), -0.6px -1.3px 0px rgb(255, 255, 255);
+	-webkit-text-stroke: 2px rgb(0, 161, 255);
 	margin:-20px 0 0;
 }
 
 #main{
 	padding:0 50px 50px;
-	background:#fffa;
+	background:rgba(255, 255, 255, 0.667);
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -56,8 +56,8 @@ span{
 	padding: 5px 10px;
 	font: 1.1em tahoma;
 	outline: none;
-	border: 3px inset white;
-	box-shadow: inset 0 0 4px #000;
+	border: 3px inset rgb(255, 255, 255);
+	box-shadow: inset 0 0 4px rgb(0, 0, 0);
 	border-radius: 3px;
 	margin: 10px 0 0;
 }
@@ -87,7 +87,7 @@ span{
 	padding:5px 7px;
 	margin:4px;
 	border-radius:5px;
-	background:#799c79;
+	background:rgb(121, 156, 121);
 	min-width:220px;
 	display: inline-block;
 	transition: transform 100ms,box-shadow 100ms, opacity 1s;
