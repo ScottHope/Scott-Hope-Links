@@ -49,6 +49,7 @@ span{
 	background:rgba(255, 255, 255, 0.667);
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	justify-content: space-evenly;
 }
 
