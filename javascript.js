@@ -12,10 +12,11 @@ sessionStorage.menuSearch === undefined ? sessionStorage.setItem("menuSearch", "
 function buttonSearch() {
   count = 0;
   sessionStorage.menuSearch = searchBox.value;
-  buttons.forEach(function (a) {
-    a.textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (a.classList.remove("invalid"), count++) : a.classList.add("invalid");
+  for (var i = 0; i < buttons.length; i ++){
+  // buttons.forEach(function (a) {
+    buttons[i].textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (buttons[i].classList.remove("invalid"), count++) : buttons[i].classList.add("invalid");
   }
-  );
+
   (searchBox.value === "" && count === 63) ? match.innerHTML = 0 : match.innerHTML = count;
   count === 0 ? inputBG.style.setProperty("--inputColor","#faa") : inputBG.style.setProperty("--inputColor","");
 }
