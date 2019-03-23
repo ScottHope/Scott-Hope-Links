@@ -3,7 +3,7 @@
 }
 
 body{
-	background:url('images/golf image 1.jpg');
+	background:url('../images/golf image 1.jpg');
 	background-size:cover;
 	background-attachment:fixed;
 	font:1.1rem tahoma;
