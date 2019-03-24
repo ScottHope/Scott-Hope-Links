@@ -84,6 +84,15 @@ span{
 	background: var(--inputColor);
 }
 
+#counter{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	pointer-events: none;
+	opacity: 0.6;
+	width:120px;
+}
+
 .button{
 	padding:5px 7px;
 	margin:4px;
@@ -99,19 +108,7 @@ span{
 	opacity:0.3;
 	pointer-events:none;
 }
-
-.counter{
-	position: absolute;
-	top: 5px;
-	right: 5px;
-	pointer-events: none;
-	opacity: 0.6;
-	width:120px;
-}
- .counter img{
-	 width:120px;
- }
-
+ 
 @media screen and (max-width:500px){
 	#inputSection{
 		flex-wrap:wrap;
