@@ -7,13 +7,13 @@ counter = document.querySelectorAll(".counter img")[0];
 searchBox.addEventListener("input", buttonSearch);
 searchBox.focus();
 
-sessionStorage.menuSearch === undefined ? sessionStorage.setItem("menuSearch", "") : (searchBox.value = sessionStorage.menuSearch, buttonSearch());
+sessionStorage.menuSearch === undefined ? sessionStorage.setItem("menuSearch", "") : searchBox.value = sessionStorage.menuSearch;
+buttonSearch();
 
 function buttonSearch() {
   count = 0;
   sessionStorage.menuSearch = searchBox.value;
   for (var i = 0; i < buttons.length; i ++){
-  // buttons.forEach(function (a) {
     buttons[i].textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (buttons[i].classList.remove("invalid"), count++) : buttons[i].classList.add("invalid");
   }
 
