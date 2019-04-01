@@ -17,7 +17,7 @@ function buttonSearch() {
     buttons[i].textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (buttons[i].classList.remove("invalid"), count++) : buttons[i].classList.add("invalid");
   }
 
-  (searchBox.value === "" && count === 63) ? match.innerHTML = 0 : match.innerHTML = count;
+  (searchBox.value === "" && count === buttons.length) ? match.innerHTML = 0 : match.innerHTML = count;
   count === 0 ? inputBG.style.setProperty("--inputColor","#faa") : inputBG.style.setProperty("--inputColor","");
 }
 
