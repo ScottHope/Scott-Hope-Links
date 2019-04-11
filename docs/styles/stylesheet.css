@@ -112,32 +112,32 @@ span{
 .new::after{
 	content: "new!";
 	transform: translate(65px, -45px) rotateZ(-48deg);
-
+	color:yellow;
+	font-size:2.2rem;
 }
 
 .latest::after{
 	content:"latest";
 	transform: translate(45px, -45px) rotateZ(-48deg);
-
 }
 
 .revised::after{
 	content:"revised";
 	transform: translate(38px, -45px) rotateZ(-48deg);
-
 }
 
 .updated::after{
 	content:"updated";
-	transform: translate(30px, -45px) rotateZ(-48deg);
-
+	transform: translate(-150px, -45px) rotateZ(-48deg);
+	color:orange;
+	font-size:1.5rem;
 }
 
 .sticker::after{
 	position: absolute;
-	color: yellow;
 	text-shadow: 0px 5px 5px #000;
-	font: bold 2.2rem comic sans ms;
+	font-family:comic sans ms;
+	font-weight:bold;
 }
  
 @media screen and (max-width:500px){
