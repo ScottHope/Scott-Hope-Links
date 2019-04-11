@@ -119,11 +119,15 @@ span{
 .latest::after{
 	content:"latest";
 	transform: translate(45px, -45px) rotateZ(-48deg);
+	color:cyan;
+	font-size:1.9rem;
 }
 
 .revised::after{
 	content:"revised";
-	transform: translate(38px, -45px) rotateZ(-48deg);
+	transform: translate(51px, -41px) rotateZ(-48deg);
+	color: deeppink;
+	font-size: 1.5rem;
 }
 
 .updated::after{
