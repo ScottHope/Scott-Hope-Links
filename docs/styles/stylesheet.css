@@ -111,7 +111,7 @@ span{
 
 .new::after{
 	content: "new!";
-	transform: translate(65px, -45px) rotateZ(-48deg);
+	transform: translate(-145px, -69px) rotateZ(-48deg);
 	color:yellow;
 	font-size:2.2rem;
 }
