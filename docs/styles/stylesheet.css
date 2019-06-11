@@ -143,6 +143,10 @@ span{
 	font-family:comic sans ms;
 	font-weight:bold;
 }
+
+.disabled{
+	filter:grayscale(1);
+}
  
 @media screen and (max-width:500px){
 	#inputSection{
