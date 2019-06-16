@@ -118,7 +118,7 @@ span{
 
 .latest::after{
 	content:"latest";
-	transform: translate(45px, -45px) rotateZ(-48deg);
+	transform: translate(65px, -45px) rotateZ(52deg);
 	color:cyan;
 	font-size:1.9rem;
 }
