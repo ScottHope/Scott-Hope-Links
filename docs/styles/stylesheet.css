@@ -109,39 +109,33 @@ span{
 	pointer-events:none;
 }
 
-.new::after{
-	content: "new!";
-	transform: translate(-150px, -69px) rotateZ(-48deg);
-	color:yellow;
-	font-size:2.2rem;
-}
-
-.latest::after{
-	content:"latest";
-	transform: translate(65px, -45px) rotateZ(52deg);
-	color:cyan;
-	font-size:1.9rem;
-}
-
-.revised::after{
-	content:"revised";
-	transform: translate(51px, -41px) rotateZ(-48deg);
-	color: deeppink;
-	font-size: 1.5rem;
-}
-
-.updated::after{
-	content:"updated";
-	transform: translate(-150px, -45px) rotateZ(-48deg);
-	color:orange;
-	font-size:1.5rem;
-}
-
-.sticker::after{
+.sticker::before{
+	content:"\f0a3";
+	font-family:"Font Awesome 5 Free";
+	font-weight: 900;
 	position: absolute;
-	text-shadow: 0px 5px 5px #000;
-	font-family:comic sans ms;
-	font-weight:bold;
+	margin: -8px -121px;
+	font-size: 1.7rem;
+	color: red;
+	filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.3));
+}
+
+.letter::after{
+	position: absolute;
+	margin:-46.5px -113px;
+	color:#fff;
+}
+.n::after{
+	content:"N";
+}
+.l::after{
+	content:"L";
+}
+.u::after{
+	content:"U";
+}
+.r::after{
+	content:"R";
 }
 
 .disabled{
