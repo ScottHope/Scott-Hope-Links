@@ -13,6 +13,11 @@ a{
 	text-decoration: none;
 }
 
+i{
+	color:#fff;
+	font-size:1em;
+}
+
 a:link{
 	color:rgb(255, 255, 255);
 }
@@ -114,16 +119,17 @@ span{
 	font-family:"Font Awesome 5 Free";
 	font-weight: 900;
 	position: absolute;
-	margin: -8px -121px;
-	font-size: 1.7rem;
+	margin: -16px -129px;
+	font-size: 2rem;
 	color: red;
-	filter: drop-shadow(5px 5px 0px rgba(0,0,0,0.3));
+	filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.3));
 }
 
 .letter::after{
 	position: absolute;
-	margin:-46.5px -113px;
+	margin:-51px -120px;
 	color:#fff;
+	font-weight:bold;
 }
 .n::after{
 	content:"N";
@@ -140,6 +146,10 @@ span{
 
 .disabled{
 	filter:grayscale(1);
+}
+
+.hidden{
+	display:none;
 }
  
 @media screen and (max-width:500px){
