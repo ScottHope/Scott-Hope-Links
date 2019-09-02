@@ -14,8 +14,22 @@ a{
 }
 
 i{
+	color:red;
+	font-size:1.9em;
+}
+
+i+span{
 	color:#fff;
-	font-size:1em;
+	font-size:1.3em;
+	position:relative;
+	left:-1.05em;
+	top:-.3rem;
+}
+
+#key{
+	position:absolute;
+	top:5px;
+	right:130px;
 }
 
 a:link{
