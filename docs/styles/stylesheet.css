@@ -40,9 +40,10 @@ a:visited{
 	color:rgb(180, 255, 255);
 }
 
-#main a:hover{
+#main a:hover, a:focus{
 	transform: scale(1.03);
 	box-shadow:0 3px 3px 2px rgba(0, 0, 0, 0.467);
+	outline:none;
 }
 
 #main a:active{
