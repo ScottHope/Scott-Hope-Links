@@ -100,6 +100,7 @@ span{
 	transition: transform 100ms,box-shadow 100ms, opacity 1s;
 	text-align:center;
 	color:#fff;
+	box-shadow:0 1px 1px #000;
 }
 
 .key{
