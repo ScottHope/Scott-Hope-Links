@@ -13,29 +13,6 @@ a{
 	text-decoration: none;
 }
 
-i{
-	color:red;
-	font-size:1.9em;
-}
-
-i+span{
-	color:#fff;
-	font-size:1.3em;
-	position:relative;
-	left:-1.05em;
-	top:-.3rem;
-}
-
-#key{
-	position:absolute;
-	top:5px;
-	right:130px;
-}
-
-a:link{
-	color:rgb(255, 255, 255);
-}
-
 a:visited{
 	color:rgb(180, 255, 255);
 }
@@ -113,7 +90,7 @@ span{
 	width:120px;
 }
 
-.button{
+.button, .key{
 	padding:5px 7px;
 	margin:4px;
 	border-radius:5px;
@@ -122,41 +99,17 @@ span{
 	display: inline-block;
 	transition: transform 100ms,box-shadow 100ms, opacity 1s;
 	text-align:center;
+	color:#fff;
+}
+
+.key{
+	cursor:default;
+	user-select: none;
 }
 
 .invalid{
 	opacity:0.3;
 	pointer-events:none;
-}
-
-.sticker::before{
-	content:"\f0a3";
-	font-family:"Font Awesome 5 Free";
-	font-weight: 900;
-	position: absolute;
-	margin: 20px -129px;
-	font-size: 2rem;
-	color: red;
-	filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.3));
-}
-
-.letter::after{
-	position: absolute;
-	margin:-15px -120px;
-	color:#fff;
-	font-weight:bold;
-}
-.n::after{
-	content:"N";
-}
-.l::after{
-	content:"L";
-}
-.u::after{
-	content:"U";
-}
-.r::after{
-	content:"R";
 }
 
 .disabled{
@@ -165,6 +118,30 @@ span{
 
 .hidden{
 	display:none;
+}
+
+.new{
+	background-color: #c44248;
+}
+
+.revised{
+background-color:#6AADFE;
+}
+
+.updated{
+	background-color: #ADAD00;
+}
+
+.latest{
+	background-color: #FE7936;
+}
+
+.newsflash{
+	background-color: #C448C4;
+}
+
+.spacer{
+width:100%;
 }
  
 @media screen and (max-width:500px){
