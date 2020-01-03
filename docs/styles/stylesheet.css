@@ -17,14 +17,13 @@ a:visited{
 	color:rgb(180, 255, 255);
 }
 
-#main a:hover, a:focus{
+#main a:hover{
 	transform: scale(1.03);
 	box-shadow:0 3px 3px 2px rgba(0, 0, 0, 0.467);
 	outline:none;
 }
 
 #main a:active{
-	/* color:lime; */
 	transform:scale(1.01);
 	box-shadow:0 3px 3px 0px rgba(0, 0, 0, 0.467);
 }
