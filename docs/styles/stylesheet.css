@@ -117,7 +117,7 @@ span{
 }
 
 .hidden{
-	display:none;
+	visibility:hidden;
 }
 
 .new{
