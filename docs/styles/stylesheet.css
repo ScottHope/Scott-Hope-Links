@@ -143,6 +143,11 @@ background-color:#6AADFE;
 .spacer{
 width:100%;
 }
+
+.quantity{
+	float:left;
+	margin:10px 0 0;
+}
  
 @media screen and (max-width:500px){
 	#inputSection{
