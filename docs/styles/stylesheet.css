@@ -122,12 +122,9 @@ span{
 	visibility:hidden;
 }
 
-.new{
-	background-color: #c44248;
-}
 
 .revised{
-background-color:#6AADFE;
+	background-color:#6AADFE;
 }
 
 .updated{
@@ -140,6 +137,10 @@ background-color:#6AADFE;
 
 .pcea{
 	background-color: #C448C4;
+}
+
+.new{
+	background-color: #c44248;
 }
 
 .spacer{
