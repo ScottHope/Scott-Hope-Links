@@ -108,15 +108,14 @@ span{
 	user-select: none;
 }
 
-.invalid, .disabled{
+.invalid{
 	opacity:0.3;
 	pointer-events:none;
 }
 
-/* .disabled{
-	filter:grayscale(1);
-	pointer-events:none;
-} */
+.disabled{
+	display: none;
+}
 
 .hidden{
 	visibility:hidden;
