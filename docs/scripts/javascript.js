@@ -14,7 +14,7 @@ function buttonSearch() {
   count = 0;
   sessionStorage.menuSearch = searchBox.value;
   for (var i = 0; i < buttons.length; i ++){
-    buttons[i].textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (buttons[i].classList.remove("invalid"), buttons[i].tabIndex = 0, count++) : (buttons[i].classList.add("invalid"), buttons[i].tabIndex = -1);
+    buttons[i].textContent.toLowerCase().search(searchBox.value.toLowerCase()) > -1 ? (buttons[i].classList.remove("invalid"), buttons[i].removeAttribute("tabIndex"), count++) : (buttons[i].classList.add("invalid"), buttons[i].tabIndex = -1);
   }
 
   (searchBox.value === "" && count === buttons.length) ? match.innerHTML = 0 : match.innerHTML = count;
