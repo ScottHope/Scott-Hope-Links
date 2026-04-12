@@ -139,7 +139,17 @@ span{
 }
 
 .new{
-	background-color: #c44248;
+	/* background-color: #c44248; */
+	background-color: yellow;
+	color: #000;
+}
+
+a.new{
+	color: #000;
+}
+
+a:visited.new{
+	color: darkviolet;
 }
 
 .spacer{
